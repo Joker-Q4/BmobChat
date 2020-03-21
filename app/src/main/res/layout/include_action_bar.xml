@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/common_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="22sp"
+        app:layout_constraintHorizontal_weight="1"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorTheme"
+        android:gravity="center" />
+</android.support.constraint.ConstraintLayout>
